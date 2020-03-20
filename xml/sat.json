@@ -1,0 +1,58 @@
+{
+    "citation": "NA",
+    "description": "NA",
+    "homepage": "https://catalog.data.gov/dataset?res_format=XML",
+    "keywords": [
+        "sat",
+        "education",
+        "college board"
+    ],
+    "name": "iris",
+    "resources": [
+        {
+            "dialect": {
+            },
+            "name": "sat.xml",
+            "values_source": "row",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "DBN",
+                        "source": "dbn",
+                        "type": "string"
+                    },
+                    {
+                        "name": "School Name",
+                        "source": "school_name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Number of Test Takers",
+                        "source": "number_of_test_takers",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Critical Reading Mean",
+                        "source": "critical_reading_mean",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Mathematics Mean",
+                        "source": "mathematics_mean",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Writing Mean",
+                        "source": "writing_mean",
+                        "type": "string"
+                    }
+                ]
+            },
+            "url": "https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.xml?accessType=DOWNLOAD"
+        }
+    ],
+    "retriever": "True",
+    "retriever_minimum_version": "2.0.dev",
+    "title": "Sat test data",
+    "version": "1.2.1"
+}
